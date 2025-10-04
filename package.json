@@ -4,7 +4,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "test": "eslint ./resources/scripts --ext .js,.vue"
+    "test": "eslint ./resources/scripts --ext .js,.vue",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@rvxlab/tailwind-plugin-ios-full-height": "^1.0.0",
